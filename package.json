@@ -1,0 +1,22 @@
+{
+  "name": "maptool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "tt": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-table3": "^0.6.0",
+    "commander": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "tile38": "^0.7.0"
+  }
+}
