@@ -10,7 +10,11 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["tile38", "cli", "utility"],
+  "keywords": [
+    "tile38",
+    "cli",
+    "utility"
+  ],
   "author": "Stephen L. McMahon <stephen@slmcmahon.com>",
   "license": "MIT",
   "repository": {
