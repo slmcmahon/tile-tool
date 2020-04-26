@@ -1,7 +1,7 @@
 {
-  "name": "maptool",
+  "name": "tile-tool",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple command line utility for Tile38",
   "main": "index.js",
   "bin": {
     "tt": "./index.js"
@@ -10,9 +10,13 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["tile38", "cli", "utility"],
+  "author": "Stephen L. McMahon <stephen@slmcmahon.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slmcmahon/tile-tool.git"
+  },
   "dependencies": {
     "cli-table3": "^0.6.0",
     "commander": "^5.1.0",
